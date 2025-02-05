@@ -1,0 +1,18 @@
+#word count program
+def countstringwords(text):
+    #Split the text into words using whitespace as the delimiter
+    words=text.split()
+    return len(words)
+def project2():
+    userinput= input("Enter a sentence or paragraph: ").strip()
+    #check for empty input
+    if not userinput:
+        print("Account for potential errors, such as empty input.Please try again.")
+    else:
+        #call the countwords
+        wordcount=countwords(userinput)
+        #display the user words count
+        print(f"Word count: {wordcount}")
+        #run the program
+        if __name__ == "__project2__":
+            project2()
