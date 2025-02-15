@@ -33,6 +33,6 @@ functions and overall program structure index. Please enter a valid expense numb
             else:
                 print("Invalid choice. Please try again.")
 
-if __name__ == "__main__":
+if __name__ == "__expansetracker__":
     tracker = ExpenseTracker()
     tracker.run()
